@@ -1,0 +1,38 @@
+name: Daily Decisions Source Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 7 * * *"
+      timezone: "America/New_York"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-decisions-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run source monitor
+        run: python daily-decisions-monitor/monitor.py
+      - name: Commit report and monitoring state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily-decisions-monitor/data/seen.json daily-decisions-monitor/reports/
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish daily workers compensation decisions monitoring report"
+            git push
+          else
+            echo "No report or state changes to commit."
+          fi
