@@ -1,0 +1,97 @@
+{
+  "project": "WorkersCompensation.com Daily Decisions",
+  "version": 1,
+  "note": "Pilot registry. Sources are official starting points; automated retrieval must be validated source by source. A successful page fetch does not prove complete decision coverage.",
+  "sources": [
+    {
+      "id": "ca-wcab",
+      "jurisdiction": "California",
+      "name": "Workers' Compensation Appeals Board — Panel Decisions",
+      "url": "https://www.dir.ca.gov/WCAB/wcab-Decisions.htm",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Panel decision listing; validate pagination and decision dates."
+    },
+    {
+      "id": "ca-wcab-enbanc",
+      "jurisdiction": "California",
+      "name": "Workers' Compensation Appeals Board — En Banc Decisions",
+      "url": "https://www.dir.ca.gov/wcab/wcab_enbanc.htm",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Separate en banc collection."
+    },
+    {
+      "id": "fl-ojcc",
+      "jurisdiction": "Florida",
+      "name": "Office of the Judges of Compensation Claims — Decisions",
+      "url": "https://www.jcc.state.fl.us/JCC/Decisions",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Validate decision listing and order search behavior."
+    },
+    {
+      "id": "tx-dwc",
+      "jurisdiction": "Texas",
+      "name": "Division of Workers' Compensation — Administrative Decisions",
+      "url": "https://www.tdi.texas.gov/WC/admindecisions.html",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Multiple decision categories; separate Appeals Panel, SOAH and medical dispute materials."
+    },
+    {
+      "id": "nc-ic",
+      "jurisdiction": "North Carolina",
+      "name": "Industrial Commission — Judicial Decisions",
+      "url": "https://www.ic.nc.gov/legal-resources/judicial-decisions",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Includes agency and appellate decision resources."
+    },
+    {
+      "id": "mn-wcca",
+      "jurisdiction": "Minnesota",
+      "name": "Workers' Compensation Court of Appeals — Decisions Search",
+      "url": "https://mn.gov/workcomp/search/",
+      "kind": "administrative",
+      "method": "manual_review",
+      "status": "manual",
+      "notes": "Search interface; automated retrieval method not yet validated."
+    },
+    {
+      "id": "ny-wcb",
+      "jurisdiction": "New York",
+      "name": "Workers' Compensation Board — Hearings and Decisions",
+      "url": "https://www.wcb.ny.gov/content/main/hearings.jsp",
+      "kind": "administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Full Board and selected panel decisions."
+    },
+    {
+      "id": "ecab",
+      "jurisdiction": "Federal",
+      "name": "Employees' Compensation Appeals Board — Decisions and Orders",
+      "url": "https://www.dol.gov/agencies/ecab/decisions",
+      "kind": "federal_administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Federal Employees' Compensation Act appeals."
+    },
+    {
+      "id": "brb",
+      "jurisdiction": "Federal",
+      "name": "Benefits Review Board — Decisions",
+      "url": "https://www.dol.gov/agencies/brb/decisions",
+      "kind": "federal_administrative",
+      "method": "html_links",
+      "status": "pilot",
+      "notes": "Longshore, Defense Base Act and Black Lung matters."
+    }
+  ]
+}
