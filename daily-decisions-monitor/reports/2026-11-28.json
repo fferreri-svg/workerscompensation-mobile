@@ -1,6 +1,6 @@
 {
   "report_date": "2026-11-28",
-  "generated_at": "2026-11-28T04:20:27.372527+00:00",
+  "generated_at": "2026-11-28T13:06:06.710251+00:00",
   "new_candidate_count": 0,
   "new_candidates": [],
   "source_checks": [
@@ -9,7 +9,7 @@
       "name": "Workers' Compensation Appeals Board \u2014 Panel Decisions",
       "jurisdiction": "California",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.dir.ca.gov/WCAB/wcab-Decisions.htm",
@@ -20,7 +20,7 @@
       "name": "Workers' Compensation Appeals Board \u2014 En Banc Decisions",
       "jurisdiction": "California",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.dir.ca.gov/wcab/wcab_enbanc.htm",
@@ -31,18 +31,18 @@
       "name": "Office of the Judges of Compensation Claims \u2014 Decisions",
       "jurisdiction": "Florida",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.jcc.state.fl.us/JCC/Decisions/",
-      "candidate_links_seen": 25
+      "candidate_links_seen": 24
     },
     {
       "id": "tx-dwc",
       "name": "Division of Workers' Compensation \u2014 Administrative Decisions",
       "jurisdiction": "Texas",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.tdi.texas.gov/WC/admindecisions.html",
@@ -53,7 +53,7 @@
       "name": "Industrial Commission \u2014 Judicial Decisions",
       "jurisdiction": "North Carolina",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.ic.nc.gov/legal-resources/judicial-decisions",
@@ -64,7 +64,7 @@
       "name": "Workers' Compensation Court of Appeals \u2014 Decisions Search",
       "jurisdiction": "Minnesota",
       "status": "manual_review_required",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null
     },
@@ -73,7 +73,7 @@
       "name": "Workers' Compensation Board \u2014 Hearings and Decisions",
       "jurisdiction": "New York",
       "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
       "error": null,
       "final_url": "https://www.wcb.ny.gov/content/main/hearings.jsp",
@@ -83,23 +83,19 @@
       "id": "ecab",
       "name": "Employees' Compensation Appeals Board \u2014 Decisions and Orders",
       "jurisdiction": "Federal",
-      "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "status": "source_error",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
-      "error": null,
-      "final_url": "https://www.dol.gov/agencies/ecab/decisions",
-      "candidate_links_seen": 351
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "brb",
       "name": "Benefits Review Board \u2014 Decisions",
       "jurisdiction": "Federal",
-      "status": "checked_candidates_found",
-      "checked_at": "2026-11-28T04:20:27.372527+00:00",
+      "status": "source_error",
+      "checked_at": "2026-11-28T13:06:06.710251+00:00",
       "new_candidates": 0,
-      "error": null,
-      "final_url": "https://www.dol.gov/agencies/brb/decisions",
-      "candidate_links_seen": 10
+      "error": "HTTP Error 403: Forbidden"
     }
   ],
   "coverage_notice": "This is a pilot discovery report. A source fetch is not proof of complete coverage. Candidates require verification; source errors and manual-review sources are reported separately."
